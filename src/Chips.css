@@ -1,0 +1,30 @@
+.Chips {
+  height: 100vh;
+  display: grid;
+  grid-template: 1fr 200px 1fr/1fr 400px 1fr;
+}
+
+.Chips-container {
+  grid-area: 2/2/span 1/span 1;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  position: relative;
+}
+
+.Chips-container a {
+  display: block;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Chips-container a:hover {
+  text-decoration: underline;
+}

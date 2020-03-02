@@ -1,0 +1,31 @@
+.Sardines {
+  height: 100vh;
+  display: grid;
+  grid-template: 1fr 200px 1fr/1fr 400px 1fr;
+  background-image: url('https://media.giphy.com/media/na6lKf6C7eQwM/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.Sardines-container {
+  grid-area: 2/2/span 1/span 1;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Sardines-container a {
+  display: block;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Sardines-container a:hover {
+  text-decoration: underline;
+}

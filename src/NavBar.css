@@ -1,0 +1,13 @@
+.NavBar a.active {
+  font-weight: bold;
+  color: black;
+}
+
+.NavBar {
+  display: grid;
+  grid-template: 40px/1fr repeat(4, 60px) 1fr;
+}
+
+.NavBar-Home {
+  grid-column: 2/span 1;
+}
